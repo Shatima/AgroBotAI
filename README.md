@@ -1,2 +1,17 @@
-# AgroBotAI
-A I B a s e d I n t e l l i g e n t R o b o t F o r S o i l T e s t i n g , S e e d &amp; F e rt i l i z e r R e c o m m e n d e r, a n d W a t e r M a n a g e m e n t
+
+# 🤖 Farm-Land AI Robot  
+This project uses ROS 2, SLAM, soil sensors, and computer vision to recommend seeds and fertilizers and to automate watering.
+
+## Launch Files
+Run the SLAM, sensors, recommender, and pump control using the launch files in ros2_launch/.
+
+## Nodes
+- nav/: SLAM and navigation
+- sensor/: Soil sensors and vision-based classification
+- recommender/: Seed & fertilizer recommendation logic
+- pump_ctrl/: Controls NodeMCU via MQTT
+
+## Setup
+- ROS 2 Humble or later
+- Python 3.10
+- Arduino IDE for NodeMCU
